@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center; 
+}
+
+/* Navigation Bar */
+nav {
+	background:  #333;
+	color: white;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 15px;
+}
+
+nav ul li a {
+	color: white;
+	text-declaration: none;
+}
+
+/* Hero Section */
+.hero {
+	padding: 50px;
+	background: lightgray;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background: blue;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background: darkblue;
+}
+
+/* Contact Form */
+.contact {
+	padding: 30px;
+}
+
+input, textarea {
+	width: 80%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid gray;
+}
+
+button[type="submit"] {
+	background: green;
+}
+
+button[type="submit"] :hover {
+	backgroung: darkgreen;
+}
+
+@media (max-width: 768px) { 
+    nav {
+        flex-direction: column;
+		text-align: centre;
+	}
+	nav ul {
+		flex-direction: column;
+	}
+}
+ 
